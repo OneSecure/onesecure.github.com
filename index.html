@@ -1,0 +1,129 @@
+<html>
+<head>
+<title>KeySecure</title>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+<script type="text/javascript" src="jquery-1.6.1.min.js"></script>
+
+<!-- Screenshot fade in/out -->
+<script type="text/javascript">
+  var elements;
+  var i = 0;
+
+  $(document).ready(function() {
+    elements = $("#iphone-screenshots img");
+    setTimeout("updateScreenshot()", 4000);
+  });
+
+  function updateScreenshot() {
+    $(elements[i]).fadeOut("slow");
+    i = (i + 1) % elements.length;
+    $(elements[i]).fadeIn("slow");
+
+    setTimeout("updateScreenshot()", 4000);
+  }
+</script>
+
+<!-- Google Analytics -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-19206376-3']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+
+<body>
+  <div id="container">
+    <div id="header">
+      <div class="wrapper">
+        <div class="title">
+          <img src="logo.png" />
+        </div>
+
+        <div class="intro">
+          <h1>KeySecure</h1>
+          <p>Secure password storage on your phone.</p>
+          <p><a href="https://itunes.apple.com/us/app/keysecure-password-manager/id962640687?ls=1&mt=8" target="itunes_store"><img src="appstore.png" alt="iTunes App Store" style="border: 0;"/></a></p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="wrapper">
+      <div id="page">
+        <h2>Features</h2>
+        <ul class="features">
+          <li>
+            <p>View, Edit, and Create your secure informations, Almost any date type supported</p>
+          </li>
+          <li>
+            <p>Sync files to iCloud and Dropbox using the Dropbox iOS app</p>
+          </li>
+          <li>
+            <p>Copy password entries to the clipboard for easy entry</p>
+          </li>
+          <li>
+            <p>Open websites in Safari while KeySecure runs in the background</p>
+          </li>
+          <li>
+            <p>iOS App Extension supported</p>
+          </li>
+          <li>
+            <p>Apple Touch ID supported</p>
+          </li>
+          <li>
+            <p>Apple Watch supported</p>
+          </li>
+        </ul>
+      </div>
+
+      <div id="iphone">
+        <div id="iphone-screenshots">
+          <img style="display:block;" src="screenshot0.png" />
+          <img style="display:none;" src="screenshot1.png" />
+          <img style="display:none;" src="screenshot2.png" />
+          <img style="display:none;" src="screenshot3.png" />
+          <img style="display:none;" src="screenshot4.png" />
+        </div>
+      </div>
+    </div>
+
+    <ul class="buttons"">
+
+      <li>
+        <a href="http://www.twitter.com/KeySecure"><img src="twitter.png" alt="Follow KeySecure on Twitter"/></a>
+	  </li>
+
+    <!--
+      <li>
+        <a href="http://www.weibo.com/KeySecure"><img src="weibo.png" alt="关注 微博上的 密保强档 KeySecure"/></a>
+	  </li>
+
+	   <li>
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+          <input type="hidden" name="cmd" value="_donations">
+          <input type="hidden" name="business" value="minikeepass@gmail.com">
+          <input type="hidden" name="lc" value="US">
+          <input type="hidden" name="item_name" value="Support MiniKeePass">
+          <input type="hidden" name="no_note" value="0">
+          <input type="hidden" name="currency_code" value="USD">
+          <input type="hidden" name="bn" value="PP-DonationsBF:btn_donate_SM.gif:NonHostedGuest">
+          <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+          <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+        </form>
+      </li>
+    !-->
+
+	</ul>
+
+    <div id="footer">&copy; Copyright 2015 RalphStudio.  All Rights Reserved</div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,140 @@
+html {
+  color: #000;
+  background: #FFF;
+}
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+fieldset, img {
+  border: 0;
+}
+
+body {
+  font: 16px Helvetica,Arial,Verdana,sans-serif;
+  background: white url("background.jpeg") center 300px repeat-x;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+.wrapper {
+  width: 870px;
+  margin: 0 auto;
+  position: relative;
+  text-align: left;
+}
+
+#container {
+  display: block;
+  text-align: center;
+}
+
+#header {
+  display: block;
+  height: 300px;
+  overflow: hidden;
+  background: #000005;
+  color: #F0F0F0;
+  border-bottom: 1px solid #E2E5E4;
+}
+
+#header h1 {
+  font-weight: bold;
+}
+
+#header .title {
+  width: 200px;
+  height: 200px;
+  padding-left: 30px;
+  padding-top: 40px;
+  float: left;
+}
+
+#header .intro {
+  width: 250px;
+  font-size: 1.2em;
+  margin-left: 300px;
+  padding-top: 40px;
+}
+
+#header p {
+  margin-bottom: 30px;
+}
+
+#page {
+  margin-left: 40px;
+  padding-top: 2em;
+  width: 500px;
+}
+
+.features {
+  width: 540px;
+  overflow: hidden;
+}
+
+.features ul {
+  list-style-type: none;
+}
+
+.features li {
+  width: 220px;
+  float: left;
+  margin-right: 40px;
+  padding-bottom: 30px;
+  font-size: 1em;
+  list-style-type: none;
+}
+
+.buttons ul {
+  margin-top: 1em;
+  text-align: center;
+}
+
+.buttons li {
+  display: inline;
+  list-style-type: none;
+  padding-right: 20px;
+}
+
+.buttons form {
+  display: inline;
+}
+
+#iphone {
+  position: absolute;
+  top: -255px;
+  right: -190px;
+  width: 500px;
+  height: 230px;
+  background: url('iphone.png') top left no-repeat;
+}
+
+#iphone-screenshots {
+  position: relative;
+  left: 74px;
+  top: 15px;
+  width: 300px;
+  height: 200px;
+}
+
+#iphone-screenshots img {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+#footer {
+  margin-top: 3em;
+  color: #888;
+  font-size: .7em;
+  text-align: center;
+}

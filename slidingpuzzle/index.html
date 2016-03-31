@@ -1,0 +1,86 @@
+<html>
+<head>
+<title>Sliding Puzzle</title>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+<script type="text/javascript" src="jquery-1.6.1.min.js"></script>
+
+<!-- Screenshot fade in/out -->
+<script type="text/javascript">
+  var elements;
+  var i = 0;
+
+  $(document).ready(function() {
+    elements = $("#iphone-screenshots img");
+    setTimeout("updateScreenshot()", 4000);
+  });
+
+  function updateScreenshot() {
+    $(elements[i]).fadeOut("slow");
+    i = (i + 1) % elements.length;
+    $(elements[i]).fadeIn("slow");
+
+    setTimeout("updateScreenshot()", 4000);
+  }
+</script>
+
+<!-- Google Analytics -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-19206376-3']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+
+<body>
+  <div id="container">
+    <div id="header">
+      <div class="wrapper">
+        <div class="title">
+          <img src="logo.png" />
+        </div>
+
+        <div class="intro">
+          <h2>Sliding Puzzle</h2>
+          <p>Classic Sliding Puzzle Game.</p>
+          <p><a href="https://itunes.apple.com/app/id978911056" target="itunes_store"><img src="appstore.png" alt="iTunes App Store" style="border: 0;"/></a></p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="wrapper">
+      <div id="page">
+        <h2>Features</h2>
+        <ul class="features">
+          <li>
+            <p>3 x 3 up to 6 x 6 square</p>
+          </li>
+          <li>
+            <p>Numbered tiles, abstract images</p>
+          </li>
+          <li>
+            <p>Smoothly push entire rows and columns of tiles</p>
+          </li>
+        </ul>
+      </div>
+
+      <div id="iphone">
+        <div id="iphone-screenshots">
+          <img style="display:block;" src="screenshot0.png" />
+          <img style="display:none;"  src="screenshot1.png" />
+        </div>
+      </div>
+    </div>
+
+    <div id="footer">&copy; Copyright 2016 RalphStudio.  All Rights Reserved</div>
+  </div>
+</body>
+</html>

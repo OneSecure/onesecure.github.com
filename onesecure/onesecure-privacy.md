@@ -43,7 +43,7 @@ All Information store in user device, we do not store it in any server.
 
 ## Sharing Personal Data with Third Parties
 
-We integrate services such as Google Drive, and we fully comply with privacy policies such as [Google Drive](https://policies.google.com/privacy).
+We integrate services such as Google Drive, and we fully comply with privacy policies such as [Google Drive](https://developers.google.com/terms/api-services-user-data-policy).
 
 
 ## Information Security

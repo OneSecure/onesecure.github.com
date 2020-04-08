@@ -15,6 +15,8 @@
 
 - Any unused portion of a free trial period, if offered, will be forfeited when the user purchases a subscription to that publication, where applicable.
 
+- See or cancel your subscriptions, click [here (English)](https://support.apple.com/en-us/HT202039), [here (简体中文)](https://support.apple.com/zh-cn/HT202039), or [here (正體中文)](https://support.apple.com/zh-tw/HT202039).
+
 - [Privacy Policy](./onesecure-privacy.html)
 
 - [End-user license agreement](./EULA.html)

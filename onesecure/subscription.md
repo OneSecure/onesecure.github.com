@@ -17,4 +17,4 @@
 
 - [Privacy Policy](./onesecure-privacy.html)
 
-- [Terms of Use](./EULA.html)
+- [End-user license agreement](./EULA.html)

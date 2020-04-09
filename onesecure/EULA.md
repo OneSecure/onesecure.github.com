@@ -74,3 +74,5 @@ You may cancel your account at any time. Since the Software is delivered in full
 
 - [Privacy Policy](./onesecure-privacy.html)
 
+- [Terms of Use](./term-of-use.html)
+
